@@ -1,3 +1,12 @@
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
 .navbar-brand {
   font-family: 'Bungee', cursive;
   font-size: 22px;
@@ -18,7 +27,9 @@
   border: 3px solid black;
 }
 
-
+#camping:hover {
+  opacity: 0.5;
+}
 
 #cosmos {
   background-image:url('../img/stars.jpg');
@@ -28,8 +39,16 @@
   border: 3px solid black;
 }
 
+#cosmos:hover {
+  opacity: 0.5;
+}
+
 #movies {
   background-image:url('../img/movies.jpg');
   background-size: contain;
   border: 3px solid black;
+}
+
+#movies:hover {
+  opacity: 0.5;
 }
