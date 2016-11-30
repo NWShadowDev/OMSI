@@ -68,7 +68,8 @@ body {
 }
 
 #camping:hover {
-  opacity: 0.5;
+  opacity: 0.7;
+  box-shadow: 3px 3px 10px silver;
 }
 
 #cosmos {
@@ -92,7 +93,8 @@ body {
 }
 
 #cosmos:hover {
-  opacity: 0.5;
+  opacity: 0.7;
+  box-shadow: 3px 3px 10px silver;
 }
 
 #movies {
@@ -119,5 +121,6 @@ body {
 }
 
 #movies:hover {
-  opacity: 0.5;
+  opacity: 0.7;
+  box-shadow: 3px 3px 10px silver;
 }
